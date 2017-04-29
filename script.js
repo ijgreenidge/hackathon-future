@@ -20,13 +20,15 @@ $("#userInput").on('change', function(e) {
                 $("#question").addClass("animated fadeInRightBig");
                 changeText("Thats great. Keep at it " + user.name);
                 $("#output").html("<img class='img-fluid' id='goodImage' src='http://pix.iemoji.com/images/emoji/apple/ios-9/256/thumbs-up-sign.png' />");
+                questionState = "weather";
             }
             else if (input === "bad") {
                 user.mood = "bad";
                 changeText("Thats too bad. Here is a joke " + user.name);
                 var random = Math.floor(Math.random() * jokes.length);
                 $("#output").html(jokes[random]);
-            }questionState = "weather";
+                questionState = "weather";
+            }
             break;
         case "weather":
             getWeather();
@@ -81,6 +83,6 @@ function getWeather() {
         '?appid=c2f2d170f6f6fc336058e9851edb828c' +
         '&q=' + demoUser.location +
         '&units=imperial';
-
+        $("body").css("background-image", "background-image")
     $.get(url, printWeather);
 }
