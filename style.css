@@ -1,0 +1,76 @@
+body {
+    background-image: url("https://images5.alphacoders.com/434/thumb-1920-434005.jpg");
+}
+
+#question {
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+
+#userInput {
+    text-align: center;
+    opacity: 0.9;
+    width: 75%;
+    height: 25px;
+    margin-left: 12.5%;
+}
+
+#userInput2 {
+    text-align: center;
+    opacity: 0.9;
+    width: 75%;
+    height: 100px;
+    margin-left: 12.5%;
+}
+
+#suggestion {
+    background-color: white;
+    height: 100px;
+    width: 30%;
+    margin-top: 100px;
+}
+
+#box {
+    border: 2px solid white;
+    height: 250px;
+    top: 125px; 
+}
+
+
+
+#outfit {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#output {
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    height: 500px;
+    top: 125px;
+    width:75%;
+    margin-left: 12.5%;
+    text-align: center;
+}
+#outfit{
+    border-radius:50%;
+    width:150px;
+    height:150px;
+    margin: 0 auto;
+    display: block;
+}
+#goodImage {
+    width: 100%;
+    height: 100%;
+}
+
